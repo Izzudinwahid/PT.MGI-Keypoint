@@ -20802,6 +20802,10 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="55.88" y1="182.88" x2="55.88" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="MINI1" gate="G$1" pin="IN+"/>
 <wire x1="60.96" y1="170.18" x2="55.88" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-2" pin="1"/>
+<wire x1="50.8" y1="165.1" x2="55.88" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="165.1" x2="55.88" y2="170.18" width="0.1524" layer="91"/>
+<junction x="55.88" y="170.18"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -20899,6 +20903,13 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <pinref part="MINI1" gate="G$1" pin="IN-"/>
 <wire x1="71.12" y1="177.8" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="167.64" x2="60.96" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="167.64" x2="58.42" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="167.64" x2="58.42" y2="162.56" width="0.1524" layer="91"/>
+<junction x="60.96" y="167.64"/>
+<wire x1="58.42" y1="162.56" x2="45.72" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="162.56" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-1" pin="1"/>
+<wire x1="45.72" y1="170.18" x2="50.8" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">

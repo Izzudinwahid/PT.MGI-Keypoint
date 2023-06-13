@@ -19003,10 +19003,10 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <library name="EByte E220-900T22D">
 <packages>
 <package name="EBYTEE220-900T22D">
-<wire x1="-6" y1="2" x2="39" y2="2" width="0.1524" layer="21"/>
-<wire x1="39" y1="2" x2="39" y2="-19" width="0.1524" layer="21"/>
-<wire x1="39" y1="-19" x2="-6" y2="-19" width="0.1524" layer="21"/>
-<wire x1="-6" y1="-19" x2="-6" y2="2" width="0.1524" layer="21"/>
+<wire x1="-6" y1="3.5" x2="37" y2="3.5" width="0.1524" layer="21"/>
+<wire x1="37" y1="3.5" x2="37" y2="-20.5" width="0.1524" layer="21"/>
+<wire x1="37" y1="-20.5" x2="-6" y2="-20.5" width="0.1524" layer="21"/>
+<wire x1="-6" y1="-20.5" x2="-6" y2="3.5" width="0.1524" layer="21"/>
 <pad name="M0" x="-4.56" y="-0.82" drill="0.8" diameter="1.27" shape="long" rot="R180"/>
 <pad name="M1" x="-4.56" y="-3.36" drill="0.8" diameter="1.27" shape="long" rot="R180"/>
 <pad name="RXD" x="-4.56" y="-5.9" drill="0.8" diameter="1.27" shape="long" rot="R180"/>

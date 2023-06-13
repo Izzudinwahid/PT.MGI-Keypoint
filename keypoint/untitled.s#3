@@ -20092,8 +20092,9 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <segment>
 <wire x1="17.78" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="38.1" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="33.02" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="33.02" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="22.86" y1="20.32" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
 <junction x="22.86" y="33.02"/>
 <pinref part="C14" gate="G$1" pin="1"/>
@@ -20101,6 +20102,13 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="17.78" y1="33.02" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="S3" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="40.64" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
+<junction x="17.78" y="38.1"/>
+<pinref part="S4" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="20.32" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
+<junction x="22.86" y="20.32"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -20508,6 +20516,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="33.02" x2="-2.54" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="33.02" x2="-2.54" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="S3" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="MD1" gate="G$0" pin="EN"/>
@@ -20530,6 +20540,9 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="0" y1="12.7" x2="0" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="S4" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
+<junction x="0" y="20.32"/>
 </segment>
 <segment>
 <pinref part="MD1" gate="G$0" pin="IO0"/>

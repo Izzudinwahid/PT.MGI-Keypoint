@@ -20681,6 +20681,11 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="-38.1" y1="-109.22" x2="-27.94" y2="-109.22" width="0.1524" layer="91"/>
 <label x="-27.94" y="-109.22" size="0.6096" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="K2" gate="3" pin="O"/>
+<wire x1="-33.02" y1="-167.64" x2="-30.48" y2="-167.64" width="0.1524" layer="91"/>
+<label x="-30.48" y="-167.64" size="0.6096" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="RX_DB9" class="0">
 <segment>
@@ -21080,12 +21085,6 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <segment>
 <pinref part="K2" gate="2" pin="O"/>
 <wire x1="-33.02" y1="-152.4" x2="-30.48" y2="-152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="K2" gate="3" pin="O"/>
-<wire x1="-33.02" y1="-167.64" x2="-30.48" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TXLORA_CONFIG" class="0">
