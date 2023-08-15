@@ -29,7 +29,7 @@ void setup() {
   pinMode(4, OUTPUT);
   //  pinMode(26, OUTPUT);
   pinMode(5, OUTPUT);
-  digitalWrite(4, HIGH);
+  digitalWrite(4, LOW);
   //  digitalWrite(26, LOW);
   digitalWrite(5, LOW);
 }
